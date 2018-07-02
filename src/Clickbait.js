@@ -25,7 +25,7 @@ class Clickbait extends React.Component{
   }
     render(){
     return(
-    <div class="small-12 columns other-articles">
+    <div className="small-12 columns other-articles">
             <h2> From Around the Realm </h2>
             {this.state.articles.map(currentArticle => <Single article = {currentArticle}/>)}
           </div>

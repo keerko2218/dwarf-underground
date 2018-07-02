@@ -7,7 +7,7 @@ class Single extends React.Component{
     render(){
         return(
             
-            <div class="small-6 medium-3 columns other-article">
+            <div className="small-6 medium-3 columns other-article">
               <a href="#">
                 <img src = {this.props.article.Link} alt= {this.props.article.alt} />
                 <p>{this.props.article.Description}</p>
