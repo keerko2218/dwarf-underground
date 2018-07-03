@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 
-class exButtons extends React.Component{
+class ExButtons extends React.Component{
+    constructor(props){
+        super(props)
+    }
     addText =() => {
         return document.createElement('input')
     }
@@ -20,4 +23,4 @@ class exButtons extends React.Component{
         )
     }
 }
-export default exButtons
+export default ExButtons
